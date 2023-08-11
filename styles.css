@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+}
+#keypad_btns{
+    display: grid;
+    grid: repeat(5, 70px) / repeat(4, 70px);
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+#display_area{
+    background-color: #6b6b6b;
+    height: 75px;
+    width: 280px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+#current_input{
+  height: 50%;
+  text-align: right;
+  padding: 10px 10px 0px 0px;
+  color: white;
+}
+#answer_screen{
+  height: 50%;
+  text-align: right;
+  color: white;
+  padding: 20px 10px 10px 10px;
+}
