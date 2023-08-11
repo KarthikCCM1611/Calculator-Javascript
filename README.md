@@ -1,2 +1,2 @@
 # Calculator_Using_Javascript-
-Creating the calculator using simple Javascript codes
+Basic example of a calculator created using HTML, CSS, and JavaScript
